@@ -1,0 +1,36 @@
+{% extends "topbar.j2" %}
+
+{% block basecss %}
+{{ super() }}
+<link href="{{ media_url('css/columns.css') }}" rel="stylesheet">
+{% endblock basecss %}
+
+
+{% block content %}
+<div class="page-header">
+    {% block header %}
+    <h1>
+        {% block page_title %}{{ resource.meta.title }}{% endblock %}
+        {% if resource.meta.subtitle %}<small>{% block page_subtitle %}{{ resource.meta.subtitle }}{% endblock %}</small>{% endif %}
+    </h1>
+    {% endblock header %}
+</div>
+
+
+<div class="row">
+    <div class="span10">
+        {% filter markdown -%}
+        {% block main %}{% endblock %}
+        {%- endfilter %}
+    </div>
+    
+    <div class="span4">
+        <center>
+            <img src="{{ media_url('img/David_Larson.jpg') }}" alt="David Larson" width="150"/>
+            <br>
+            <a href="https://github.com/dplarson">@dplarson</a> on <a href="https://github.com">Github</a>
+        </center>
+    </div>
+</div>
+
+{% endblock content %}

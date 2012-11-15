@@ -1,0 +1,45 @@
+---
+extends: columns.j2
+title: Research
+subtitle: 
+description: current and past research work
+---
+
+{% block main %}
+
+## Current Projects
+
+#### Variable Order Differential Equations (VODEs)
+Developing numerical methods for solving VODEs, including methods to approximate VODEs using Constant Order (CO) derivatives.
+
+
+#### Evolutionary Non-Integer Order Methods (ENIOs)
+Investigating evolutionary methods (e.g. Genetic Algorithms) coupled with Non-Integer Order Methods (i.e. Fractional and Variable Order) as applied to time series.
+
+
+
+## Past Projects
+
+#### Effect of Turbulent Air Flow on Hummingbird Kinematics and Metabolism
+[Animal Flight Lab](http://ib.berkeley.edu/labs/dudley/), UC Berkeley (summer 2011)
+
+Analyzed the effects of turbulent air flow on hummingbird flight, using flapping kinematics and metabolic rates as references. Flapping kinematics were studied using a system of high speed cameras while metabolism was calculated via an oxygen consumption sensor placed inside a feeding flower. Turbulence was produced using mesh grids mounted in a wind tunnel while turbulence levels were analyzed using Laser Particle Image Velocimetry (LPIV) methods.
+
+<center>
+    <br>
+    <img src="{{ media_url('img/hummingbird.png') }}" alt="Hummingbird" width="350"/> 
+    <br>
+    **Figure 1**: Example image from the hummingbird study. Captured using a high-speed camera (~500 frames per second).
+</center>
+
+
+#### Aerodynamic Trends for Biological Flapping Flight
+[Coimbra Group](http://coimbra.ucsd.edu/), UC Merced (summer 2010)
+
+Performed detailed analysis of pre-existing studies on biological flapping flight in an attempt to determine dimensionless trends.
+
+
+
+
+
+{% endblock main %}
