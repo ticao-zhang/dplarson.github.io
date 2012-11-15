@@ -1,5 +1,5 @@
 # Description
-My personal research website/portfolio. Currently hosted at [UCSD][[dplarson-ieng6].
+My personal research website/portfolio. Currently hosted at [UCSD][dplarson-ieng6].
 
 
 # Credits
