@@ -74,6 +74,7 @@
             
     {# Add prettyPhoto jquery (for lightbox image galleries) #}
     <script src="{{ media_url('js/libs/jquery.prettyPhoto.js') }}"></script>
+
     {% endblock jquery %}
 
     {% block bootstrap_scripts %}
@@ -106,18 +107,38 @@
     {# Taken from from Josh Dick (http://joshdick.net) #}
     {# See https://gist.github.com/961154 for more details. #}
     <script type="text/javascript">
-      $(document).ready(function(){
+        $(document).ready(function(){
 
-        //First, remove the invisible <span>s from the link - now the plain-text e-mail address is in the DOM
-        $("#contact span").remove();
+            //First, remove the invisible <span>s from the link - now the plain-text e-mail address is in the DOM
+            $("#contact span").remove();
 
-        //Next, set the link's href attribute to be 'mailto:' plus the link text (the plain-text e-mail address from the previous step.)
-        //BAM--instant simple mailto: link, except spam bots can't harvest it.
-        $("#contact").attr("href", "mailto:" + $.trim($("#contact").text()));
-
-      });
+            //Next, set the link's href attribute to be 'mailto:' plus the link text (the plain-text e-mail address from the previous step.)
+            //BAM--instant simple mailto: link, except spam bots can't harvest it.
+            $("#contact").attr("href", "mailto:" + $.trim($("#contact").text()));
+        });
     </script>
 
+
+    {# Add MathJax (HTTPS version) #}
+    {# NOTE: MathJax might not display locally, but does in production mode on the remote host. #}
+    <script type="text/javascript" src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    {# MathJax configuration #}
+    <script type="text/javascript">
+        MathJax.Hub.Config({
+            imageFont: null,
+            messageStyle: "none", //turn off status messages
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX","output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [ ['$','$'] ],
+                displayMath: [ ['$$','$$'] ],
+            processEscapes:true
+            }
+        });
+    </script>
+
+ 
     {% endblock js %}
   </body>
 </html>

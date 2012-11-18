@@ -10,7 +10,11 @@ description: current and past research work
 ## Current Projects
 
 #### Variable Order Differential Equations (VODEs)
-Developing numerical methods for solving VODEs, including methods to approximate VODEs using Constant Order (CO) derivatives.
+Developing numerical methods for solving VODEs, including methods to approximate VODEs using Constant Order (CO) derivatives. In general, a VODE is of the form:
+
+$$ D^{2} x(t) + c_0 D^{q(x,t)} x(t) + k_0 D^{0} x(t) = F(t)$$
+
+where $q(x,t)$ is the order of the VO-derivative, $c_0$ and $k_0$ are contants, and $F(t)$ is the forcing function.
 
 
 #### Evolutionary Non-Integer Order Methods (ENIOs)
@@ -35,9 +39,6 @@ Analyzed the effects of turbulent air flow on hummingbird flight, using flapping
 [Coimbra Group](http://coimbra.ucsd.edu/), UC Merced (summer 2010)
 
 Performed detailed analysis of pre-existing studies on biological flapping flight in an attempt to determine dimensionless trends.
-
-
-
 
 
 {% endblock main %}
