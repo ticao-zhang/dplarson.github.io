@@ -19,36 +19,38 @@ git clone git@github.com:dplarson/dplarson_site.git
 ## Generate and Serve the Site
 
 ### using Hyde
-```
-cd dplarson_site
-hyde gen
-hyde serve
-open http://localhost:8080
+```shell
+$ cd dplarson_site
+$ hyde gen
+$ hyde serve
+$ open http://localhost:8080
 ```
 
 ### using Fabric (preferred)
-```
-cd dplarson_site
-fab serve
-open http://localhost:8080
+```shell
+$ cd dplarson_site
+$ fab serve
+$ open http://localhost:8080
 ``` 
 
 
 ## Publish the Site
 
 ### using Hyde
+```shell
+$ cd dplarson_site
+$ hyde gen -c prod.yaml
 ```
-cd dplarson_site
-hyde gen -c prod.yaml
-(upload deploy/* to your host)
-```
+then upload **deploy/** to your host.
+
+
 
 ### using Fabric (preferred)
+```shell
+$ cd dplarson_site
+$ fabric push
 ```
-cd dplarson_site
-fabric push
-(make sure to change the **rsync** command in **fabfile.py** with your host info)
-```
+**NOTE**: make sure to change the **rsync** command in **fabfile.py** with your host info
 
 
 # Credits
@@ -56,7 +58,7 @@ Built by [David Larson][dplarson-github] using [Hyde][hyde] and [Bootstrap][boot
 
 
 # License
-(to be added)
+see **LICENSE.markdown**
 
 
 [dplarson-ieng6]:http://ieng6.ucsd.edu/~dplarson/
