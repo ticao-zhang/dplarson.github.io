@@ -18,23 +18,26 @@
 
 
 <div class="row">
-    <div class="span8">
+    <div class="span9">
         {% filter markdown -%}
         {% block main %}{% endblock %}
         {%- endfilter %}
     </div>
     
-    <div class="span6">
+    <div class="span5">
         <center>
             <a href="{{ media_url('img/David_Larson.jpg') }}" rel="prettyPhoto" title=""><img src="{{ media_url('img/David_Larson.jpg') }}" alt="David P. Larson" width="250" /></a>
             <br>
-            <a href="https://github.com/dplarson">@dplarson</a> on <a href="https://github.com">Github</a>
-            <br>
-            <br>
-
             {# Add (obfuscated) email address #}
             {# If javascript not enabled, requires captcha completition to get email address #}
             <a target="_blank" id="contact" href="http://www.google.com/recaptcha/mailhide/d?k=01rP_AhaCYQXEZiBTSkJN9VA==&c=DGa7te12niRz6dhFZdAJ5YTIx6Dg5dNshPrIwQmerb8=">dp<span style="display:none">solar</span>larson@uc<span style="display:none">forecasting</span>sd.edu</a>
+            <br>
+            <a href="https://github.com/dplarson">Github</a>
+            <br>
+            <a href="http://www.linkedin.com/pub/david-larson/65/334/934/">LinkedIn</a>
+            <br>
+
+            
 
         </center>
     </div>
