@@ -7,38 +7,28 @@ description: current and past research work
 
 {% block main %}
 
-## Current Projects
 
-#### Variable Order Differential Equations (VODEs)
-Developing numerical methods for solving VODEs, including methods to approximate VODEs using Constant Order (CO) derivatives. In general, a VODE is of the form:
+#### Contrail Effects on Ground-Based Solar Irradiance Measurements
+Marina I. Fernandez, **David P. Larson**, [Carlos Coimbra][coimbra]  (Fall 2012)  
+[abstract]()  / [sample image]()  
+Evaluated the impact of aircraft condensation trails (contrails) on solar power plants using ground-based solar irradiance measurements. 
 
-$$ D^{2} x(t) + c_0 D^{q(x,t)} x(t) + k_0 D^{0} x(t) = F(t)$$
-
-where $q(x,t)$ is the order of the VO-derivative, $c_0$ and $k_0$ are contants, and $F(t)$ is the forcing function.
-
-
-#### Evolutionary Non-Integer Order Methods (ENIOs)
-Investigating evolutionary methods (e.g. Genetic Algorithms) coupled with Non-Integer Order Methods (i.e. Fractional and Variable Order) as applied to time series.
-
-
-
-## Past Projects
 
 #### Effect of Turbulent Air Flow on Hummingbird Kinematics and Metabolism
-[Animal Flight Lab](http://ib.berkeley.edu/labs/dudley/), UC Berkeley (summer 2011)
-
-Analyzed the effects of turbulent air flow on hummingbird flight, using flapping kinematics and metabolic rates as references. Flapping kinematics were studied using a system of high speed cameras while metabolism was calculated via an oxygen consumption sensor placed inside a feeding flower. Turbulence was produced using mesh grids mounted in a wind tunnel while turbulence levels were analyzed using Laser Particle Image Velocimetry (LPIV) methods.
-
-<center>
-    <br>
-    <a href="{{ media_url('img/hummingbird.png') }}" rel="prettyPhoto" title="Example image from the hummingbird study. Captured using a high-speed camera (~500 frames per second)."><img src="{{ media_url('img/hummingbird.png') }}" alt="" width="150"/></a>
-</center>
-
+**David P. Larson**, [Nir Sapir][nir], [Robert Dudley][dudley]  (Summer 2011)  
+[abstract]() / <a href="{{ media_url('img/hummingbird.png') }}" rel="prettyPhoto" title="Example image from the hummingbird study. Captured using a high-speed camera (~500 frames per second).">sample image</a>  
+Studied the effects of turbulent air flow on hummingbird flight using high-speed photography and Particle Image Velocimetry (PIV).  
 
 #### Aerodynamic Trends for Biological Flapping Flight
-[Coimbra Group](http://coimbra.ucsd.edu/), UC Merced (summer 2010)
+**David P. Larson**, [Carlos Coimbra][coimbra]  (Summer 2010)  
+[abstract]()  
+Investigated aerodynamic trends of flapping flight.
 
-Performed detailed analysis of pre-existing studies on biological flapping flight in an attempt to determine dimensionless trends.
+
+
+[coimbra]: http://www.jacobsschool.ucsd.edu/faculty/faculty_bios/findprofile.sfe?department=MAE&fmp_recid=324
+[nir]: http://ib.berkeley.edu/labs/dudley/Members/nirsapir.html
+[dudley]: http://ib.berkeley.edu/labs/dudley/Members/robertdudley.html
 
 
 {% endblock main %}
