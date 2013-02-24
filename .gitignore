@@ -1,4 +1,10 @@
+# Hyde-specific
 layout/deploy
 deploy
 *.hyde_deps
+
+# Python
+*.py[cod]
+
+# OS
 *.DS_Store
