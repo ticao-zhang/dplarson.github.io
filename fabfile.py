@@ -23,7 +23,6 @@ def update_cv():
     except:
         print "Error: unable to download newest version of CV."
 
-
 def gen():
     """Generate website."""
     clean()
