@@ -15,12 +15,21 @@
     {% block basecss %}
     <link href="{{ media_url('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ media_url('css/style.css') }}" rel="stylesheet">
+    <link href="{{ media_url('css/font-awesome.min.css') }}" rel="stylesheet">
 
     {# Add prettyPhoto css (for lightbox image galleries) #}
     <link href="{{ media_url('css/prettyPhoto.css') }}" rel="stylesheet">
 
     {% endblock basecss %}
-    {% block css %}{% endblock %}
+    {% block css %}
+    <style type="text/css">
+        a.icons         { color:#303030; text-decoration:none; }
+        a.icons:hover   { color:#303030; text-decoration:none; }
+        a.icons:visited { color:#303030; text-decoration:none; }
+        a.icons:active  { color:#303030; text-decoration:none; }
+    </style> 
+    
+    {% endblock %}
 
 
 
