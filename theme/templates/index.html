@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="span8">
+  <h4>About Me</h4>
+  <p>I am a Mechanical Engineering PhD student at <a href="http://www.ucsd.edu">UCSD</a>. I work in the <a href="{{ URL_COIMBRA }}">Coimbra Solar Forecast Engine Lab</a> and am involved with the <a href="{{ URL_IDEA }}">IDEA Scholars Program</a>.</p>
+
+  <p>I received my B.S. in Mechanical Engineering from <a href="http://www.ucmerced.edu">UC Merced</a>, and am an alumni of the <a href="{{ URL_LEADS }}">UC LEADS</a> and <a href="{{ URL_NERDS }}">Cal NERDS</a> programs.</p>
+
+  <p>My CV is available <a href="{{ SITEURL }}/David_Larson.pdf">here</a>.</p>
+
+
+  <hr>
+
+
+  <h4>Research Interests</h4>
+  My current research focuses on applying machine learning to solar forecasting.
+
+
+  <hr>
+
+
+  <h4>Technical Skillsets</h4>
+  <ul>
+    <li>Programming: Python, Matlab, Mathematica</li>
+    <li>Rapid Prototyping: CAD, 3D printing, machining</li>
+    <li>Data Analysis and Visualization</li>
+  </ul>
+
+</div>
+
+
+<div class="span4">
+<center>
+    <img src="{{ SITEURL }}/theme/images/David_Larson.jpg" alt="David P. Larson" width="200" />
+
+    <br>
+
+    {# Add (obfuscated) email address #}
+    {# If javascript not enabled, requires captcha completition to get email address #}
+    <a target="_blank" id="contact" href="http://www.google.com/recaptcha/mailhide/d?k=01rP_AhaCYQXEZiBTSkJN9VA==&c=DGa7te12niRz6dhFZdAJ5YTIx6Dg5dNshPrIwQmerb8=">dp<span style="display:none">solar</span>larson@uc<span style="display:none">forecasting</span>sd.edu</a>
+
+    <br>
+
+    {# Github #}
+    <a href="https://github.com/dplarson" alt="Github" class='icons'><i class="icon-github icon-2x"></i></a>
+
+    &nbsp;
+
+    {# LinkedIn #}
+    <a href="http://www.linkedin.com/pub/david-larson/65/334/934/" alt="LinkedIn" class='icons'><i class="icon-linkedin-sign icon-2x"></i></a>
+
+</center>
+</div>
+
+
+
+{% endblock main %}

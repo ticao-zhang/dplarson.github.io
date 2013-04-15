@@ -1,6 +1,5 @@
-# Hyde-specific
-layout/deploy
-deploy
+# Pelican
+output/
 *.hyde_deps
 
 # Python
