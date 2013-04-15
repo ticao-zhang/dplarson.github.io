@@ -1,56 +1,106 @@
-<html>
-    <head>
-        {% block head %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
 
-            <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/columns.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css">
 
-            <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <style type="text/css">
+            a.icons         { color:#303030; text-decoration:none; }
+            a.icons:hover   { color:#303030; text-decoration:none; }
+            a.icons:visited { color:#303030; text-decoration:none; }
+            a.icons:active  { color:#303030; text-decoration:none; }
+        </style>
 
-        {% endblock head %}
 
-    </head>
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 
-    <body>
+    {% endblock head %}
 
-        <div class="container {% block sitestyle %}info{% endblock %}">
+</head>
 
-            <!-- NAVIGATION -->
-            <div class="row menu">
+<body>
 
-                <div class="span3">
-                    David P. Larson
-                </div>
-            
-                <div class="span9">
-                    <p>home / research / media</p>
-                </div>
+<div class="container id="top">
+    {% block container %}
 
+        <div class="topbar">
+        <div class="fill">
+            <div class="container">
+                <a class="brand" href="{{ SITEURL }}">{{ SITENAME }}</a>
             </div>
-
-            <!-- CONTENT -->
-            {% block main %}
-
-            {% endblock main %}
-
-            <!-- FOOTER -->
-            <div class="row footer">
-
-                <div class="span 12">
-                    <p>Footer text goes here</p>
-                </div>
-
-            </div>
-
+        </div>
         </div>
 
-        {% block scripts %}
 
-        {% endblock scripts %}
+        <div class="content">
+            {% block content %}
+            
+                <div class="row">
 
-        {% block google_analytics %}
+                    <div class="span9">
+                        {% block main %}{% endblock %}
+                    </div>
 
-        {% endblock google_analytics %}
+                    <div class="span5">
+                        <center>
 
-    </body>
+                        <img src="{{ SITEURL }}/theme/img/David_Larson.jpg" alt="David P. Larson" width="250" />
+                        <br>
 
+                        <!-- Add (bofuscated) email address -->
+                        <a target="_blank" id="contact" href="http://www.google.com/recaptcha/mailhide/d?k=01rP_AhaCYQXEZiBTSkJN9VA==&c=DGa7te12niRz6dhFZdAJ5YTIx6Dg5dNshPrIwQmerb8=">dp<span style="display:none">solar</span>larson@uc<span style="display:none">forecasting</span>sd.edu</a>
+
+                        <br>
+                        <br>
+
+                        <!-- Github -->
+                        <a href="{{ URL_GITHUB }}" alt="Github" class='icons'><i class="icon-github icon-2x"></i></a> 
+
+                        &nbsp;
+
+                        <!-- LinkedIn -->
+                        <a href="{{ URL_LINKEDIN }}" alt="LinkedIn" class='icons'><i class="icon-linkedin-sign icon-2x"></i></a>
+
+                        </center>
+                    </div>
+                </div>
+
+            {% endblock content %}
+        </div>
+
+
+        <footer>
+            {% block footer %}
+                <p>Created by David Larson using Pelican</p>
+            {% endblock footer %}
+        </footer>
+
+    {% endblock container %}
+</div>
+
+
+    {% block scripts %}
+    {% endblock scripts %}
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            //First, remove the invisible <span>s from the link - now the plain-text e-mail address is in the DOM
+            $("#contact span").remove();
+
+            //Next, set the link's href attribute to be 'mailto:' plus the link text (the plain-text e-mail address from the previous step.)
+            //BAM--instant simple mailto: link, except spam bots can't harvest it.
+            $("#contact").attr("href", "mailto:" + $.trim($("#contact").text()));
+        });
+    </script>
+
+
+
+    {% include 'analytics.html' %}
+    
+</body>
 </html>
