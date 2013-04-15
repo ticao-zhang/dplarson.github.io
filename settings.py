@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u'David Philip Larson'
+AUTHOR = u'David P. Larson'
 SITENAME = u'David P. Larson'
 SITEURL = 'http://ieng6.ucsd.edu/~dplarson'
 TIMEZONE = 'America/Los_Angeles'
@@ -10,6 +10,7 @@ DEFAULT_LANG = u'en'
 THEME = 'theme'
 
 DELETE_OUTPUT_DIRECTORY = True
+
 
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_ASS = '{slug}.html'
