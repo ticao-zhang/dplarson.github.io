@@ -1,0 +1,56 @@
+<html>
+    <head>
+        {% block head %}
+
+            <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
+
+            <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+        {% endblock head %}
+
+    </head>
+
+    <body>
+
+        <div class="container {% block sitestyle %}info{% endblock %}">
+
+            <!-- NAVIGATION -->
+            <div class="row menu">
+
+                <div class="span3">
+                    David P. Larson
+                </div>
+            
+                <div class="span9">
+                    <p>home / research / media</p>
+                </div>
+
+            </div>
+
+            <!-- CONTENT -->
+            {% block main %}
+
+            {% endblock main %}
+
+            <!-- FOOTER -->
+            <div class="row footer">
+
+                <div class="span 12">
+                    <p>Footer text goes here</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        {% block scripts %}
+
+        {% endblock scripts %}
+
+        {% block google_analytics %}
+
+        {% endblock google_analytics %}
+
+    </body>
+
+</html>

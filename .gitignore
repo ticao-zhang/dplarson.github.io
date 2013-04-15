@@ -1,6 +1,5 @@
 # Hyde-specific
-layout/deploy
-deploy
+_build/
 *.hyde_deps
 
 # Python
