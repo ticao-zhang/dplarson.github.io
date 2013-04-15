@@ -1,5 +1,5 @@
-# Hyde-specific
-_build/
+# Pelican
+output/
 *.hyde_deps
 
 # Python
