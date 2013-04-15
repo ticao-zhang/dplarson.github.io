@@ -4,6 +4,7 @@ My personal research website/portfolio. Currently hosted at [http://ieng6.ucsd.e
 
 # Requirements
 * Python 2.7.3
+* Pelican 3.1.1
 * Fabric 1.4.3
 
 
