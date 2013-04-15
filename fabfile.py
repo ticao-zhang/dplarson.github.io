@@ -17,11 +17,19 @@ def update_cv():
 
 
 def gen():
+    """Generate website."""
     clean()
     local('pelican content -s settings.py')
     update_cv()
 
 
+def serve():
+    """Server website locally."""
+    gen()
+    local('cd output && python -m SimpleHTTPServer')
+
+
 def push():
+    """Push website to server."""
     gen()
     local('rsync -rav output/ dplarson@ieng6.ucsd.edu:/home/linux/ieng6/oce/60/dplarson/public_html/')
