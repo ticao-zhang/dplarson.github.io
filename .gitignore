@@ -1,9 +1,8 @@
-# Pelican
-output/
-*.hyde_deps
+# Jekyll generated files
+_site
 
-# Python
-*.py[cod]
+# OSX generated files
+.DS_Store
 
-# OS
-*.DS_Store
+# Ruby generated files
+Gemfile.lock

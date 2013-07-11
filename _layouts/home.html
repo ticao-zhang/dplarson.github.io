@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+
+<div class="container-narrow">
+
+  <div class="masthead">
+    {% include navigation.html %}
+  </div> <!-- /masthead -->
+
+  <div class="row-fluid marketing">
+    <div class="span8">
+      {{ content }}
+    </div> <!-- /span8 -->
+
+    <div class="span4">
+      <center>
+        {% include sidebar.html %} 
+      </center>
+    </div> <!-- /span4 -->
+  </div> <! -- /row-fluid marketing -->
+
+  <hr>
+
+  <div class="footer">
+    <center>
+      {% include footer.html %}
+    </center>
+  </div> <!-- /footer -->
+
+</div> <!-- /container -->
+
+{% include scripts.html %}
+
+</body>
+</html>
