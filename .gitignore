@@ -6,3 +6,6 @@ _site
 
 # Ruby generated files
 Gemfile.lock
+
+# Other
+.bundle

@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Serve the site locally.
+
+cd "$(dirname $0)"/..
+
+script/bootstrap && bundle exec jekyll server --watch

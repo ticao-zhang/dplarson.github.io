@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Deploy site to host.
+
+script/bootstrap && bundle exec jekyll build
+
+rsync -rav _site/ dplarson@ieng6.ucsd.edu:/home/linux/ieng6/oce/60/dplarson/public_html/
