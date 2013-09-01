@@ -3,7 +3,7 @@ layout: home
 ---
 
 #### About Me
-I am a Mechanical Engineering PhD student at [UCSD](http://ucsd.edu). I work in the [Coimbra Energy Grou[](http://coimbra.ucsd.edu/) and am involved with the [IDEA Scholars Program](http://www.jacobsschool.ucsd.edu/student/scholars/).
+I am a Mechanical Engineering PhD student at [UCSD](http://ucsd.edu). I work in the [Coimbra Energy Group](http://coimbra.ucsd.edu/) and am involved with the [IDEA Scholars Program](http://www.jacobsschool.ucsd.edu/student/scholars/).
 
 I received my B.S. in Mechanical Engineering from [UC Merced](http://www.ucmerced.edu/), and am an alumni of the [UC LEADS](http://ogs-leads.ucsd.edu/) and [Cal NERDS](http://ucberkeleynerds.com) programs.
 
