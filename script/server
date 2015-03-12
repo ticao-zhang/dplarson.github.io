@@ -2,6 +2,12 @@
 #
 # Serve the site locally.
 
+# Go to the root directory of the project.
 cd "$(dirname $0)"/..
 
-script/bootstrap && bundle exec jekyll server --watch
+# Install dependencies
+script/bootstrap
+
+# Start the server (0.0.0.0:4000)
+echo "==> Starting the server at localhost:4000"
+bundle exec bin/jekyll serve _config.yml
