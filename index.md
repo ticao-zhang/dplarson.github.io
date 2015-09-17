@@ -12,11 +12,11 @@ My CV is available <a markdown="0" href="{{ site.url }}/David_Larson.pdf">here</
 ---------------------------------------
 
 #### Research Interests
-My current work focues on applying machine learning to solar power forecasting.
+My current work focuses on applying machine learning to solar power forecasting.
 
 ---------------------------------------
 
-#### Technical Skillsets
+#### Technical Skill
 
 * Programming: Python, Matlab, Mathematica, C, Go, Arduino
 * Rapid prototyping: CAD, 3D printing, machining
