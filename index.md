@@ -16,7 +16,7 @@ My current work focuses on applying machine learning to solar power forecasting.
 
 ---------------------------------------
 
-#### Technical Skill
+#### Technical Skills
 
 * Programming: Python, Matlab, Mathematica, C, Go, Arduino
 * Rapid prototyping: CAD, 3D printing, machining
