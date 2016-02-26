@@ -21,4 +21,4 @@ I am a Mechanical Engineering PhD student at [UC San Diego](http://ucsd.edu). I 
 
 I received my BS in Mechanical Engineering from [UC Merced](http://www.ucmerced.edu/) and then my MS in Mechanical Engineering from [UC San Diego](http://ucsd.edu). During my undergrad, I participated in research through the [UC LEADS](http://ogs-leads.ucsd.edu/) and [Cal NERDS](http://ucberkeleynerds.com) programs.
 
-&nbsp; &nbsp; &nbsp; [Email](mailto:dplarson@ucsd.edu) / <a markdown="0" href="{{ site.url }}/David_Larson.pdf">CV</a> / [Github](https://github.com/dplarson) / Google Scholar / LinkedIn
+&nbsp; &nbsp; &nbsp; [Email](mailto:dplarson@ucsd.edu) &nbsp;/&nbsp; <a markdown="0" href="David_Larson.pdf">CV</a> &nbsp;/&nbsp; [Github](https://github.com/dplarson) &nbsp;/&nbsp; [Google Scholar](https://scholar.google.com/citations?user=meuTcaIAAAAJ)  &nbsp;/&nbsp; [LinkedIn](https://www.linkedin.com/in/david-larson-93433465)
