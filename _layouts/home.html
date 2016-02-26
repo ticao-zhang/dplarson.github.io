@@ -6,23 +6,56 @@
 
 <body>
 
-<div class="container-narrow">
+<div class="container">
 
-  <div class="masthead">
-    {% include navigation.html %}
-  </div> <!-- /masthead -->
-
-  <div class="row-fluid marketing">
+  <div class="row-fluid">
     <div class="span8">
+      <h2>David P. Larson</h2>
       {{ content }}
     </div> <!-- /span8 -->
 
     <div class="span4">
       <center>
-        {% include sidebar.html %} 
+        <br><br>
+        <img class="img-circle" src="{{ site.url }}/images/David_Larson_zoom.jpg" alt="David P. Larson" width="200px" />
       </center>
     </div> <!-- /span4 -->
-  </div> <! -- /row-fluid marketing -->
+  </div> <! -- /row-fluid -->
+
+  <div class="row-fluid">
+    <h3>Research</h3>
+    <p>My current work focuses on applying machine learning techniques to solar power forecasting.</p>
+    <br>
+  </div> <! -- /row -->
+
+    {% for paper in page.publications %}
+    <div class="row-fluid">
+    <div class="span3">
+      <center>
+        <img src="{{ paper.image }}" width="150px">
+      </center>
+      <br>
+    </div> <! -- /span3 -->
+    <div class="span8">
+      <a href="{{ paper.pdf }}">{{ paper.title }}</a>
+      <br>
+      {{ paper.author }}
+      <br>
+      {% if paper.status == "accepted" %}
+      <i>{{ paper.journal }}</i>, {{ paper.year }}
+      <br>
+      <br>
+        <a href="{{ paper.doi }}">doi<a/> / <a href="{{ paper.pdf }}">pdf</a> / <a href=" {{ paper.bibtex }}">bibtex</a>
+      {% else if paper.status == "preparation" %}
+      <br>
+        (in preparation)
+      {% endif %}
+      <br><br><br>
+    </div> <! -- /span8 -->
+    </div> <! -- /row-fluid -->
+    {% endfor %}
+
+  </div>
 
   <hr>
 
