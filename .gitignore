@@ -1,12 +1,5 @@
 # Jekyll generated files
-_site/
-bin/
+public/
 
 # OSX generated files
 .DS_Store
-
-# Ruby generated files
-Gemfile.lock
-
-# Other
-.bundle
