@@ -1,8 +1,10 @@
 ---
 baseurl: "http://ieng6.ucsd.edu/~dplarson/"
 title: "David P. Larson"
-owner: "David P. Larson"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
+params:
+    AuthorName: "David P. Larson"
+    GoogleAnalytics: "UA-36350691-1"
 ---
