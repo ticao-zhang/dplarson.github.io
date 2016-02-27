@@ -13,7 +13,7 @@ To view the website locally (for testing):
 To deploy the website:
 
 1. rebuild the website: ``hugo``
-2. upload the built files: ``scp public/ username@server.name:/some/folder/here/``
+2. upload the website: ``rsync -avz --progress public/ dplarson@ieng6.ucsd.edu:~/public_html/``
 
 ## License
 MIT
