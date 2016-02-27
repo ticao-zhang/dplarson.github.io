@@ -7,4 +7,4 @@ I am a PhD student in [MAE](http://mae.ucsd.edu/) at [UC San Diego](http://ucsd.
 
 I have a MS in Mechanical Engineering from UC San Diego and a BS in Mechanical Engineering from [UC Merced](http://ucmerced.edu/). During my time at UC Merced, I participated in the [UC LEADS](http://ucleads.org/) and [Cal NERDS](http://ucberkeleynerds.com/) summer research programs.
 
-&nbsp; &nbsp; &nbsp; [Email](mailto:dplarson@ucsd.edu) &nbsp;/&nbsp; <a markdown="0" href="DavidLarson_CV.pdf">CV</a> &nbsp;/&nbsp; [Github](https://github.com/dplarson) &nbsp;/&nbsp; [Google Scholar](https://scholar.google.com/citations?user=meuTcaIAAAAJ)  &nbsp;/&nbsp; [LinkedIn](https://www.linkedin.com/in/david-larson-93433465)
+&nbsp; &nbsp; &nbsp; [Email](mailto:dplarson@ucsd.edu) &nbsp;/&nbsp; <a markdown="0" href="DavidLarson_CV.pdf">CV</a> &nbsp;/&nbsp; [Github](https://github.com/dplarson) &nbsp;/&nbsp; [Google Scholar](https://scholar.google.com/citations?user=meuTcaIAAAAJ)
