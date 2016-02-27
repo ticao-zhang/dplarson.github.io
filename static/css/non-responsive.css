@@ -7,7 +7,7 @@
 /* Account for fixed navbar */
 body {
   padding-top: 70px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 body,
