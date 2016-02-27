@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" }}
+</head>
+
+<body>
+<div class="container">
+  <div class="row-fluid">
+    <div class="span8">
+      <!-- add bio -->
+      {{ range .Data.Pages }}
+          {{if eq .Type "index" }}
+          <h2>David P. Larson</h2>
+              {{.Content}}
+          {{end}}
+      {{ end }}
+    </div> <!-- /span8 -->
+
+    <div class="span4">
+      <img class="img-circle" src="img/David_Larson_zoom.jpg" alt="David P. Larson" width="200px" />
+    </div>
+  </div> <!-- /row-fluid (top) -->
+
+    {{ range .Data.Pages }}
+          {{if eq .Type "index" }}
+              <!-- loop through publications -->
+              <h3>Research</h3>
+              {{ range .Params.publications }}
+              <div class="row-fluid">
+              <div class="span3">
+                <center>
+                </center>
+              </div>
+              <div class="span7">
+              <a href="#">{{ .title }}</a>
+              <br>
+              {{ .author }}
+              <br>
+              <i>{{ .journal }}</i>, {{ .year }}
+              <br>
+              <br>
+              {{ end }}
+              </div>
+          </div><!-- /row-fluid (bottom) -->
+          {{end}}
+      {{ end }}
+
+
+</div> <!-- /container -->
+</body>
+</html>
