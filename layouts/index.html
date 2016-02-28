@@ -44,8 +44,10 @@
         <br>
         <i>{{ .journal }}</i>, {{ .year }}
         <br>
-        <br>
         {{ .links | markdownify }}
+        <br>
+        <br>
+        {{ .summary | markdownify }}
       </div> <!-- /col-xs-8 -->
 
     </div> <!-- /row -->
