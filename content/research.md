@@ -4,17 +4,18 @@ publications:
 - paper:
   title: "Intra-Day Forecasting of Solar Power Output from Photovoltaic Plants"
   author: "**D.P. Larson** and C.F.M. Coimbra"
-  journal: (in preparation)
+  journal: "(in preparation)"
   year: 2016
-  pdf: ""
+  pdf: "#"
+  links: ""
   image: img/GOES-WEST.png
 - paper:
   title: "Day-Ahead Forecasting of Solar Power Output from Photovoltaic Plants"
   author: "**D.P. Larson**, L. Nonnenmacher and C.F.M. Coimbra"
-  journal: Renewable Energy
+  journal: "Renewable Energy"
   year: 2016
   pdf: "LarsonNonnenmacherCoimbra2016.pdf"
-  doi: "http://dx.doi.org/10.1016/j.renene.2016.01.039"
+  links: "[doi](http://dx.doi.org/10.1016/j.renene.2016.01.039) / [bibtex](LarsonNonnenmacherCoimbra2016.bib)"
   image: img/nam_map.png
 ---
 

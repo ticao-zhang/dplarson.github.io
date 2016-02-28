@@ -38,11 +38,14 @@
       </div> <!-- /col-xs-4 -->
 
       <div class="col-xs-8">
-        <a href={{ printf "%s" .pdf }}>{{ .title }}</a>
+        <a href={{ printf "%s" .pdf}}>{{ .title }}</a>
         <br>
         {{ .author | markdownify }}
         <br>
         <i>{{ .journal }}</i>, {{ .year }}
+        <br>
+        <br>
+        {{ .links | markdownify }}
       </div> <!-- /col-xs-8 -->
 
     </div> <!-- /row -->
