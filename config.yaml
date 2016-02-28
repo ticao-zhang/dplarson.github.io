@@ -5,6 +5,6 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 params:
-    AuthorName: "David P. Larson"
-    GoogleAnalytics: "UA-36350691-1"
+    author: "David P. Larson"
+    googleanalytics: "UA-36350691-1"
 ---
