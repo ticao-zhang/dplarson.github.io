@@ -22,6 +22,6 @@ publications:
 ---
 
 ### Research
-I'm interested in machine learning, convex optimization and renewable energy
-systems. My current work focuses on developing forecast models to accuractely
+I am interested in machine learning, convex optimization and renewable energy
+systems. My current work focuses on developing forecast models to accurately
 predict power output of solar power plants.

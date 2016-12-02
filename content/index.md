@@ -9,5 +9,4 @@ I have a MS in Mechanical Engineering from UC San Diego and a BS in Mechanical E
 
 Outside of research, I act as an instructor for [ENG 10](http://eng10.ucsd.edu/) and regularly present technical workshops, in collaboration with the [IDEA Student Center](http://idea.ucsd.edu).
 
-
 &nbsp; &nbsp; &nbsp; [Email](mailto:dplarson@ucsd.edu) &nbsp;/&nbsp; [CV](David_Larson.pdf) &nbsp;/&nbsp; [Github](https://github.com/dplarson) &nbsp;/&nbsp; [Google Scholar](https://scholar.google.com/citations?user=meuTcaIAAAAJ)
