@@ -2,10 +2,10 @@
 type: research
 publications:
 - paper:
-  title: "Intra-Day Forecasting of Solar Power Output from Photovoltaic Plants"
+  title: "Direct Power Output Forecasts from Remote Sensing Image Processing"
   author: "**D.P. Larson** and C.F.M. Coimbra"
-  journal: "(in preparation)"
-  year: 2016
+  journal: "(submitted)"
+  year: 2017
   pdf: "#"
   links: ""
   image: img/GOES-WEST.png
