@@ -54,6 +54,14 @@
     {{ end }}
   {{ end }}
 
+  {{ range where .Data.Pages "Type" "==" "teaching"}}
+  <div class="row">
+    <div class="col-xs-11">
+      {{ .Content }}
+    </div>
+  </div>
+  {{ end }}
+
   <div class="row" align="right">
     <br>
     <a href="https://people.eecs.berkeley.edu/~barron/">(This website is great!)</a>
