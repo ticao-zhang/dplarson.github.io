@@ -2,6 +2,15 @@
 type: research
 publications:
 - paper:
+  title: "On the use of spatially distributed telemetry for intra-hour solar power forecasting of utility-scale photovoltaic power plants"
+  author: "**D.P. Larson** and C.F.M. Coimbra"
+  journal: "(in preparation)"
+  year: 2017
+  pdf: "#"
+  links: ""
+  image: img/polar_map.png
+  summary: ""
+- paper:
   title: "Direct Power Output Forecasts from Remote Sensing Image Processing"
   author: "**D.P. Larson** and C.F.M. Coimbra"
   journal: "(submitted)"
