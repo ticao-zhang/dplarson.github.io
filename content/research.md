@@ -13,7 +13,7 @@ publications:
 - paper:
   title: "Direct Power Output Forecasts from Remote Sensing Image Processing"
   author: "**D.P. Larson** and C.F.M. Coimbra"
-  journal: "(submitted)"
+  journal: "(under review)"
   year: 2017
   pdf: "#"
   links: ""
