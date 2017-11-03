@@ -17,7 +17,7 @@ publications:
   year: 2017
   pdf: "#"
   links: ""
-  image: img/GOES-WEST.png
+  image: img/goes_west.png
   summary: ""
 - paper:
   title: "Day-Ahead Forecasting of Solar Power Output from Photovoltaic Plants"

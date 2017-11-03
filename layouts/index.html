@@ -54,6 +54,34 @@
     {{ end }}
   {{ end }}
 
+  <!-- Reports -->
+  {{ range where .Data.Pages "Type" "==" "reports"}}
+  <div class="row">
+    <div class="col-xs-11">
+    {{ .Content }}
+    </div>
+  </div>
+    {{ range .Params.publications }}
+    <div class="row">
+
+      <div class="col-xs-4" align="center">
+        <img src={{ printf "%s" .image }} width="75%">
+      </div> <!-- /col-xs-4 -->
+
+      <div class="col-xs-8">
+        <a href={{ printf "%s" .pdf}}>{{ .title }}</a>
+        <br>
+        {{ .author | markdownify }}
+        <br>
+        <br>
+        {{ .summary | markdownify }}
+      </div> <!-- /col-xs-8 -->
+
+    </div> <!-- /row -->
+    {{ end }}
+  {{ end}}
+
+  <!-- Teaching -->
   {{ range where .Data.Pages "Type" "==" "teaching"}}
   <div class="row">
     <div class="col-xs-11">
