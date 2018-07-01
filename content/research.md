@@ -20,7 +20,7 @@ publications:
   image: img/goes_west.png
   summary: ""
 - paper:
-  title: "Day-Ahead Forecasting of Solar Power Output from Photovoltaic Plants"
+  title: "Day-Ahead Forecasting of Solar Power Output from Photovoltaic Plants in the American Southwest"
   author: "**D.P. Larson**, L. Nonnenmacher and C.F.M. Coimbra"
   journal: "Renewable Energy"
   year: 2016
